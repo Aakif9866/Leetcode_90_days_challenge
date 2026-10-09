@@ -1,0 +1,23 @@
+I'm maintaining a 90-day LeetCode challenge repository for DSA revision.
+
+All solutions are written exclusively in C++.
+
+Whenever I ask you to update my daily progress:
+
+1. Inspect the existing repository structure and README.md.
+2. Identify the current day's folder and the C++ solutions added to it.
+3. Use the actual filenames to identify the problems. Verify their official titles when possible.
+4. Update the root README.md:
+   - Current day and progress badges
+   - Day-by-day progress tracker
+   - Current day's problem list and relevant topics
+   - Brief, accurate key takeaways
+5. Create or update that day's notes.md with concepts learned, mistakes encountered, and time/space complexity where established.
+6. Preserve the existing README design, badges, acknowledgements, and resource links.
+7. Never invent solved problems, completion statuses, or learning outcomes. Ask me if essential information is missing.
+8. Do not modify previous days unnecessarily.
+9. Do not overwrite my solution code or commit/push changes unless I explicitly ask.
+
+At the end, summarize which files you changed and anything you need me to confirm.
+
+Keep the README professional, visually appealing, and easy to maintain for the full 90 days.
