@@ -13,9 +13,10 @@ A personal challenge to revise Data Structures & Algorithms, solve problems cons
 ![Daily Goal](https://img.shields.io/badge/Daily_Goal-2--3_Problems-238636?style=for-the-badge)
 ![Purpose](https://img.shields.io/badge/Purpose-DSA_Revision-0969DA?style=for-the-badge)
 
-![Progress](https://img.shields.io/badge/Day-01%2F90-2EA043?style=flat-square)
-![Solutions](https://img.shields.io/badge/Solutions-3-1F6FEB?style=flat-square)
-![Consistency](https://img.shields.io/badge/Goal-Show_Up_Every_Day-orange?style=flat-square)
+![Progress](https://img.shields.io/badge/Day-02%2F90-2EA043?style=flat-square)
+![Solutions](https://img.shields.io/badge/Solutions-7-1F6FEB?style=flat-square)
+![Streak](https://img.shields.io/badge/Streak-2_Days-FF6B6B?style=flat-square)
+![Consistency](https://img.shields.io/badge/Goal-Show_Up_Every_Day-F59E0B?style=flat-square)
 
 </div>
 
@@ -72,9 +73,10 @@ leetcode-90-days/
 │   └── notes.md
 │
 ├── Day-02/
-│   ├── 01-problem-name.cpp
-│   ├── 02-problem-name.cpp
-│   ├── 03-problem-name.cpp
+│   ├── 01-valid-anagram.cpp
+│   ├── 02-two-sum.cpp
+│   ├── 03-group-anagrams.cpp
+│   ├── 04-3sum.cpp
 │   └── notes.md
 │
 ├── Day-03/
@@ -110,7 +112,7 @@ The tracker below will be updated as the challenge progresses.
 | Day   | Problems Solved | Focus                                | Status |
 | :---- | :-------------- | :----------------------------------- | :----: |
 | 01    | 3               | Arrays, Hash Sets, Matrix Validation |   ✅   |
-| 02    | —               | To be updated                        |   ⏳   |
+| 02    | 4               | Hashing, Sorting, Two Pointers       |   ✅   |
 | 03    | —               | To be updated                        |   ⏳   |
 | 04–10 | —               | To be updated                        |   ⏳   |
 | 11–20 | —               | To be updated                        |   ⏳   |
@@ -146,6 +148,34 @@ Started with three problems covering duplicate detection, Sudoku validation, and
 - **Product of Array Except Self:** Understand how prefix and suffix products can produce the required result without repeatedly multiplying every other element.
 
 The goal is to revisit these concepts until the underlying patterns become intuitive, rather than merely remembering individual solutions.
+
+---
+
+## 🚀 Day 02 — Hashing & Two Pointers
+
+**Date:** October 10, 2026
+
+![Hashing](https://img.shields.io/badge/-Hashing-E91E63?style=flat-square)
+![Sorting](https://img.shields.io/badge/-Sorting-FF9800?style=flat-square)
+![Two Pointers](https://img.shields.io/badge/-Two_Pointers-4CAF50?style=flat-square)
+
+Covered anagram checking, the classic hash-map two-sum pattern, grouping by a canonical key, and 3Sum — including rewriting a brute-force attempt into an optimal two-pointer solution.
+
+|  #  | Problem                                                                | Key Concepts                      | Status |
+| :-: | :---------------------------------------------------------------------- | :--------------------------------- | :----: |
+| 01  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)           | Sorting, String Comparison         |   ✅   |
+| 02  | [Two Sum](https://leetcode.com/problems/two-sum/)                       | Hash Maps                          |   ✅   |
+| 03  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)         | Sorting as a Canonical Key, Maps   |   ✅   |
+| 04  | [3Sum](https://leetcode.com/problems/3sum/) *(extra)*                   | Sorting, Two Pointers              |   ✅   |
+
+### Key Takeaways
+
+- **Valid Anagram:** Sorting both strings and comparing them is a quick way to check for an anagram; a frequency-count approach is a faster alternative worth trying next.
+- **Two Sum:** A single pass with a hash map (value → index) replaces the O(n²) brute force.
+- **Group Anagrams:** Sorting each string gives a canonical key — the same idea as Valid Anagram, extended to grouping.
+- **3Sum:** The brute-force triple loop TLE'd on larger inputs. Rewriting it with sort + fix one index + two pointers brought it down to O(n²).
+
+See [Day-02/notes.md](./Day-02/notes.md) for the full breakdown.
 
 ---
 
@@ -206,7 +236,7 @@ Every day is an opportunity to get a little better.
 
 <div align="center">
 
-### Day 01 / 90 — Let's get to work.
+### Day 02 / 90 — Let's get to work.
 
 **Revise consistently. Solve deliberately. Improve continuously.**
 
