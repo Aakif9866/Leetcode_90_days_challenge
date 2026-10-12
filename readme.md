@@ -13,9 +13,9 @@ A personal challenge to revise Data Structures & Algorithms, solve problems cons
 ![Daily Goal](https://img.shields.io/badge/Daily_Goal-2--3_Problems-238636?style=for-the-badge)
 ![Purpose](https://img.shields.io/badge/Purpose-DSA_Revision-0969DA?style=for-the-badge)
 
-![Progress](https://img.shields.io/badge/Day-02%2F90-2EA043?style=flat-square)
-![Solutions](https://img.shields.io/badge/Solutions-7-1F6FEB?style=flat-square)
-![Streak](https://img.shields.io/badge/Streak-2_Days-FF6B6B?style=flat-square)
+![Progress](https://img.shields.io/badge/Day-03%2F90-2EA043?style=flat-square)
+![Solutions](https://img.shields.io/badge/Solutions-9-1F6FEB?style=flat-square)
+![Streak](https://img.shields.io/badge/Streak-1_Day-FF6B6B?style=flat-square)
 ![Consistency](https://img.shields.io/badge/Goal-Show_Up_Every_Day-F59E0B?style=flat-square)
 
 </div>
@@ -80,7 +80,9 @@ leetcode-90-days/
 │   └── notes.md
 │
 ├── Day-03/
-│   └── ...
+│   ├── 01-longest-consecutive-sequence.cpp
+│   ├── 02-top-k-frequent-elements.cpp
+│   └── notes.md
 │
 └── ...
 ```
@@ -105,7 +107,7 @@ The `notes.md` file records important observations, mistakes, patterns, and conc
 
 ## 📅 Day-by-Day Progress
 
-**Current progress: Day 01 / 90**
+**Current progress: Day 03 / 90**
 
 The tracker below will be updated as the challenge progresses.
 
@@ -113,7 +115,7 @@ The tracker below will be updated as the challenge progresses.
 | :---- | :-------------- | :----------------------------------- | :----: |
 | 01    | 3               | Arrays, Hash Sets, Matrix Validation |   ✅   |
 | 02    | 4               | Hashing, Sorting, Two Pointers       |   ✅   |
-| 03    | —               | To be updated                        |   ⏳   |
+| 03    | 2               | Hash Sets, Heaps / Priority Queues   |   ✅   |
 | 04–10 | —               | To be updated                        |   ⏳   |
 | 11–20 | —               | To be updated                        |   ⏳   |
 | 21–30 | —               | To be updated                        |   ⏳   |
@@ -179,6 +181,31 @@ See [Day-02/notes.md](./Day-02/notes.md) for the full breakdown.
 
 ---
 
+## 🚀 Day 03 — Hash Sets & Heaps
+
+**Date:** 12 October 2026
+
+> ⚠️ **Gap acknowledged:** Day 02 was completed on 10 October 2026; Day 03 picks back up on 12 October 2026, skipping a day (11 October). Logged here for an accurate record rather than a hidden streak.
+
+![Hash Set](https://img.shields.io/badge/-Hash_Set-E91E63?style=flat-square)
+![Heap](https://img.shields.io/badge/-Priority_Queue-9C27B0?style=flat-square)
+
+Covered finding the longest run of consecutive numbers using a set, and finding the k most frequent elements using a hash map paired with a max-heap.
+
+|  #  | Problem                                                                              | Key Concepts                 | Status |
+| :-: | :------------------------------------------------------------------------------------ | :---------------------------- | :----: |
+| 01  | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Hash Sets                     |   ✅   |
+| 02  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)      | Hash Maps, Priority Queue     |   ✅   |
+
+### Key Takeaways
+
+- **Longest Consecutive Sequence:** A first DP attempt didn't pan out; the working approach only starts counting a streak from numbers with no predecessor in the set, then walks forward while the next consecutive value exists.
+- **Top K Frequent Elements:** Count frequencies with a hash map, then use a max-heap of `{frequency, value}` pairs to pull out the top `k` directly.
+
+See [Day-03/notes.md](./Day-03/notes.md) for the full breakdown.
+
+---
+
 ## 🧠 How I Approach Each Problem
 
 My intended workflow for every problem is:
@@ -236,7 +263,7 @@ Every day is an opportunity to get a little better.
 
 <div align="center">
 
-### Day 02 / 90 — Let's get to work.
+### Day 03 / 90 — Let's get to work.
 
 **Revise consistently. Solve deliberately. Improve continuously.**
 
