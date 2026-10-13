@@ -13,9 +13,9 @@ A personal challenge to revise Data Structures & Algorithms, solve problems cons
 ![Daily Goal](https://img.shields.io/badge/Daily_Goal-2--3_Problems-238636?style=for-the-badge)
 ![Purpose](https://img.shields.io/badge/Purpose-DSA_Revision-0969DA?style=for-the-badge)
 
-![Progress](https://img.shields.io/badge/Day-03%2F90-2EA043?style=flat-square)
-![Solutions](https://img.shields.io/badge/Solutions-9-1F6FEB?style=flat-square)
-![Streak](https://img.shields.io/badge/Streak-1_Day-FF6B6B?style=flat-square)
+![Progress](https://img.shields.io/badge/Day-04%2F90-2EA043?style=flat-square)
+![Solutions](https://img.shields.io/badge/Solutions-10-1F6FEB?style=flat-square)
+![Streak](https://img.shields.io/badge/Streak-2_Days-FF6B6B?style=flat-square)
 ![Consistency](https://img.shields.io/badge/Goal-Show_Up_Every_Day-F59E0B?style=flat-square)
 
 </div>
@@ -84,6 +84,12 @@ leetcode-90-days/
 │   ├── 02-top-k-frequent-elements.cpp
 │   └── notes.md
 │
+├── Day-04/
+│   ├── 01-subarray-sum-equals-k.cpp
+│   └── notes.md
+│
+├── REVISIT.md
+│
 └── ...
 ```
 
@@ -103,11 +109,13 @@ Official LeetCode problem titles are used wherever possible. Numbering keeps eac
 
 The `notes.md` file records important observations, mistakes, patterns, and concepts worth revisiting.
 
+Problems that need a second pass are tracked separately in **[REVISIT.md](./REVISIT.md)**.
+
 ---
 
 ## 📅 Day-by-Day Progress
 
-**Current progress: Day 03 / 90**
+**Current progress: Day 04 / 90**
 
 The tracker below will be updated as the challenge progresses.
 
@@ -116,7 +124,8 @@ The tracker below will be updated as the challenge progresses.
 | 01    | 3               | Arrays, Hash Sets, Matrix Validation |   ✅   |
 | 02    | 4               | Hashing, Sorting, Two Pointers       |   ✅   |
 | 03    | 2               | Hash Sets, Heaps / Priority Queues   |   ✅   |
-| 04–10 | —               | To be updated                        |   ⏳   |
+| 04    | 1               | Prefix Sums, Hash Maps                |   ✅   |
+| 05–10 | —               | To be updated                        |   ⏳   |
 | 11–20 | —               | To be updated                        |   ⏳   |
 | 21–30 | —               | To be updated                        |   ⏳   |
 | 31–40 | —               | To be updated                        |   ⏳   |
@@ -206,6 +215,29 @@ See [Day-03/notes.md](./Day-03/notes.md) for the full breakdown.
 
 ---
 
+## 🚀 Day 04 — Prefix Sums
+
+**Date:** 13 October 2026
+
+![Prefix Sum](https://img.shields.io/badge/-Prefix_Sum-FF9800?style=flat-square)
+![Hash Map](https://img.shields.io/badge/-Hash_Map-E91E63?style=flat-square)
+
+A single problem today, but a pattern-correcting one: a first attempt at a sliding-window solution broke on negative numbers, leading to the prefix-sum + hash-map technique instead.
+
+|  #  | Problem                                                                       | Key Concepts            | Status |
+| :-: | :------------------------------------------------------------------------------ | :------------------------ | :----: |
+| 01  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)  | Prefix Sums, Hash Maps   |   ✅   |
+
+### Key Takeaways
+
+- **Subarray Sum Equals K:** Sliding window only works when the running sum is monotonic — negative numbers break that assumption. The fix is tracking prefix-sum frequencies in a hash map and, at each index, adding `mp[sum - k]` to the count.
+
+This one is flagged in **[REVISIT.md](./REVISIT.md)** — the solution works but doesn't yet feel fully internalized.
+
+See [Day-04/notes.md](./Day-04/notes.md) for the full breakdown.
+
+---
+
 ## 🧠 How I Approach Each Problem
 
 My intended workflow for every problem is:
@@ -263,7 +295,7 @@ Every day is an opportunity to get a little better.
 
 <div align="center">
 
-### Day 03 / 90 — Let's get to work.
+### Day 04 / 90 — Let's get to work.
 
 **Revise consistently. Solve deliberately. Improve continuously.**
 
