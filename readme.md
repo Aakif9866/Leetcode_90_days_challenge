@@ -13,9 +13,9 @@ A personal challenge to revise Data Structures & Algorithms, solve problems cons
 ![Daily Goal](https://img.shields.io/badge/Daily_Goal-2--3_Problems-238636?style=for-the-badge)
 ![Purpose](https://img.shields.io/badge/Purpose-DSA_Revision-0969DA?style=for-the-badge)
 
-![Progress](https://img.shields.io/badge/Day-04%2F90-2EA043?style=flat-square)
-![Solutions](https://img.shields.io/badge/Solutions-10-1F6FEB?style=flat-square)
-![Streak](https://img.shields.io/badge/Streak-2_Days-FF6B6B?style=flat-square)
+![Progress](https://img.shields.io/badge/Day-05%2F90-2EA043?style=flat-square)
+![Solutions](https://img.shields.io/badge/Solutions-12-1F6FEB?style=flat-square)
+![Streak](https://img.shields.io/badge/Streak-1_Day-FF6B6B?style=flat-square)
 ![Consistency](https://img.shields.io/badge/Goal-Show_Up_Every_Day-F59E0B?style=flat-square)
 
 </div>
@@ -88,6 +88,11 @@ leetcode-90-days/
 │   ├── 01-subarray-sum-equals-k.cpp
 │   └── notes.md
 │
+├── Day-05/
+│   ├── 01-two-sum-ii-input-array-is-sorted.cpp
+│   ├── 02-valid-palindrome.cpp
+│   └── notes.md
+│
 ├── REVISIT.md
 │
 └── ...
@@ -115,7 +120,7 @@ Problems that need a second pass are tracked separately in **[REVISIT.md](./REVI
 
 ## 📅 Day-by-Day Progress
 
-**Current progress: Day 04 / 90**
+**Current progress: Day 05 / 90**
 
 The tracker below will be updated as the challenge progresses.
 
@@ -125,7 +130,8 @@ The tracker below will be updated as the challenge progresses.
 | 02    | 4               | Hashing, Sorting, Two Pointers       |   ✅   |
 | 03    | 2               | Hash Sets, Heaps / Priority Queues   |   ✅   |
 | 04    | 1               | Prefix Sums, Hash Maps                |   ✅   |
-| 05–10 | —               | To be updated                        |   ⏳   |
+| 05    | 2               | Two Pointers, Strings                |   ✅   |
+| 06–10 | —               | To be updated                        |   ⏳   |
 | 11–20 | —               | To be updated                        |   ⏳   |
 | 21–30 | —               | To be updated                        |   ⏳   |
 | 31–40 | —               | To be updated                        |   ⏳   |
@@ -238,6 +244,31 @@ See [Day-04/notes.md](./Day-04/notes.md) for the full breakdown.
 
 ---
 
+## 🚀 Day 05 — Two Pointers
+
+**Date:** 19 October 2026
+
+> ⚠️ **Gap acknowledged:** Day 04 was completed on 13 October 2026; Day 05 picks back up on 19 October 2026, skipping five days (14–18 October). The streak resets, and it's logged here for an accurate record rather than a hidden one. Apologies to anyone following along for the delay — back on track.
+
+![Two Pointers](https://img.shields.io/badge/-Two_Pointers-4CAF50?style=flat-square)
+![Strings](https://img.shields.io/badge/-Strings-2196F3?style=flat-square)
+
+Two easy two-pointer problems to get back into rhythm: a sorted-array variant of Two Sum and a string palindrome check.
+
+|  #  | Problem                                                                                              | Key Concepts            | Status |
+| :-: | :---------------------------------------------------------------------------------------------------- | :----------------------- | :----: |
+| 01  | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointers, Sorted Array |   ✅   |
+| 02  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                  | Two Pointers, Strings    |   ✅   |
+
+### Key Takeaways
+
+- **Two Sum II:** Because the array is sorted, pointers at both ends can move inward — advance `i` when the sum is too small, retreat `j` when it's too big. O(n) time, O(1) space, no hash map needed.
+- **Valid Palindrome:** Build a cleaned lowercase alphanumeric string, then compare from both ends. O(n) time, O(n) space for the cleaned copy.
+
+See [Day-05/notes.md](./Day-05/notes.md) for the full breakdown.
+
+---
+
 ## 🧠 How I Approach Each Problem
 
 My intended workflow for every problem is:
@@ -295,7 +326,7 @@ Every day is an opportunity to get a little better.
 
 <div align="center">
 
-### Day 04 / 90 — Let's get to work.
+### Day 05 / 90 — Let's get to work.
 
 **Revise consistently. Solve deliberately. Improve continuously.**
 
