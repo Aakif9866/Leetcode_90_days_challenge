@@ -13,9 +13,9 @@ A personal challenge to revise Data Structures & Algorithms, solve problems cons
 ![Daily Goal](https://img.shields.io/badge/Daily_Goal-2--3_Problems-238636?style=for-the-badge)
 ![Purpose](https://img.shields.io/badge/Purpose-DSA_Revision-0969DA?style=for-the-badge)
 
-![Progress](https://img.shields.io/badge/Day-05%2F90-2EA043?style=flat-square)
-![Solutions](https://img.shields.io/badge/Solutions-12-1F6FEB?style=flat-square)
-![Streak](https://img.shields.io/badge/Streak-1_Day-FF6B6B?style=flat-square)
+![Progress](https://img.shields.io/badge/Day-06%2F90-2EA043?style=flat-square)
+![Solutions](https://img.shields.io/badge/Solutions-13-1F6FEB?style=flat-square)
+![Streak](https://img.shields.io/badge/Streak-2_Days-FF6B6B?style=flat-square)
 ![Consistency](https://img.shields.io/badge/Goal-Show_Up_Every_Day-F59E0B?style=flat-square)
 
 </div>
@@ -93,6 +93,14 @@ leetcode-90-days/
 │   ├── 02-valid-palindrome.cpp
 │   └── notes.md
 │
+├── Day-06/
+│   ├── 01-sort-colors.cpp
+│   └── notes.md
+│
+├── Day-07/
+│   ├── extra_questions.md
+│   └── notes.md
+│
 ├── REVISIT.md
 │
 └── ...
@@ -120,7 +128,7 @@ Problems that need a second pass are tracked separately in **[REVISIT.md](./REVI
 
 ## 📅 Day-by-Day Progress
 
-**Current progress: Day 05 / 90**
+**Current progress: Day 06 / 90**
 
 The tracker below will be updated as the challenge progresses.
 
@@ -131,7 +139,9 @@ The tracker below will be updated as the challenge progresses.
 | 03    | 2               | Hash Sets, Heaps / Priority Queues   |   ✅   |
 | 04    | 1               | Prefix Sums, Hash Maps                |   ✅   |
 | 05    | 2               | Two Pointers, Strings                |   ✅   |
-| 06–10 | —               | To be updated                        |   ⏳   |
+| 06    | 2 (1 new + 3Sum repeat) | Two Pointers, 3-Way Partitioning |   ✅   |
+| 07    | —               | Revision (Days 1–6)                  |   📝   |
+| 08–10 | —               | To be updated                        |   ⏳   |
 | 11–20 | —               | To be updated                        |   ⏳   |
 | 21–30 | —               | To be updated                        |   ⏳   |
 | 31–40 | —               | To be updated                        |   ⏳   |
@@ -269,6 +279,35 @@ See [Day-05/notes.md](./Day-05/notes.md) for the full breakdown.
 
 ---
 
+## 🚀 Day 06 — Dutch National Flag & 3Sum Revisited
+
+**Date:** 20 October 2026
+
+![Two Pointers](https://img.shields.io/badge/-Two_Pointers-4CAF50?style=flat-square)
+![Sorting](https://img.shields.io/badge/-In--Place_Partitioning-FF9800?style=flat-square)
+
+One new problem, plus 3Sum redone as revision (first solved on Day 2 — no new file).
+
+|  #  | Problem                                                       | Key Concepts                          | Status |
+| :-: | :------------------------------------------------------------- | :------------------------------------- | :----: |
+| 01  | [Sort Colors](https://leetcode.com/problems/sort-colors/)      | Three Pointers, In-Place Partitioning |   ✅   |
+| 02  | [3Sum](https://leetcode.com/problems/3sum/) *(repeat of Day 2)* | Sorting, Two Pointers                 |   ✅   |
+
+### Key Takeaways
+
+- **Sort Colors:** Dutch National Flag — `l`, `m`, `h` pointers sort 0/1/2 in one pass. After swapping with `h`, don't advance `m`, since the swapped-in value is unchecked. O(n) time, O(1) space.
+- **3Sum:** Sort + fix one index + two pointers, O(n²) — see [Day-02/04-3sum.cpp](./Day-02/04-3sum.cpp).
+
+See [Day-06/notes.md](./Day-06/notes.md) for the full breakdown.
+
+---
+
+## 🔁 Day 07 — Revision Day *(planned)*
+
+A revision day covering Days 1–6. A 10-question to-do list lives in [Day-07/extra_questions.md](./Day-07/extra_questions.md); the target is 2–3 of them depending on availability. This section will be updated once the day is done.
+
+---
+
 ## 🧠 How I Approach Each Problem
 
 My intended workflow for every problem is:
@@ -326,7 +365,7 @@ Every day is an opportunity to get a little better.
 
 <div align="center">
 
-### Day 05 / 90 — Let's get to work.
+### Day 06 / 90 — Let's get to work.
 
 **Revise consistently. Solve deliberately. Improve continuously.**
 
