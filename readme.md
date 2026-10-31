@@ -17,8 +17,11 @@ A personal challenge to revise Data Structures & Algorithms, solve problems cons
 ![Solutions](https://img.shields.io/badge/Solutions-13-1F6FEB?style=flat-square)
 ![Streak](https://img.shields.io/badge/Streak-2_Days-FF6B6B?style=flat-square)
 ![Consistency](https://img.shields.io/badge/Goal-Show_Up_Every_Day-F59E0B?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Abandoned-6E7681?style=flat-square)
 
 </div>
+
+> 🛑 **Roadmap abandoned:** This challenge stopped after Day 06 (20 October 2026). After an 11-day delay (21–31 October 2026) caused by an unforeseen issue, the 90-day roadmap has been officially abandoned. The solutions and notes from Days 01–06 remain here as a record of the work completed.
 
 ---
 
@@ -140,7 +143,7 @@ The tracker below will be updated as the challenge progresses.
 | 04    | 1               | Prefix Sums, Hash Maps                |   ✅   |
 | 05    | 2               | Two Pointers, Strings                |   ✅   |
 | 06    | 2 (1 new + 3Sum repeat) | Two Pointers, 3-Way Partitioning |   ✅   |
-| 07    | —               | Revision (Days 1–6)                  |   📝   |
+| 07    | —               | Revision (Days 1–6) — not completed  |   🛑   |
 | 08–10 | —               | To be updated                        |   ⏳   |
 | 11–20 | —               | To be updated                        |   ⏳   |
 | 21–30 | —               | To be updated                        |   ⏳   |
@@ -152,7 +155,7 @@ The tracker below will be updated as the challenge progresses.
 | 81–89 | —               | To be updated                        |   ⏳   |
 | 90    | —               | Final review and reflection          |   🎯   |
 
-> This is a living tracker. Individual days will be recorded as they are completed, including the problems attempted and the concepts learned.
+> 🛑 The tracker is frozen at Day 06 — the roadmap was abandoned after an 11-day delay. Days 07–90 were not completed.
 
 ---
 
@@ -302,9 +305,9 @@ See [Day-06/notes.md](./Day-06/notes.md) for the full breakdown.
 
 ---
 
-## 🔁 Day 07 — Revision Day *(planned)*
+## 🔁 Day 07 — Revision Day *(not completed)*
 
-A revision day covering Days 1–6. A 10-question to-do list lives in [Day-07/extra_questions.md](./Day-07/extra_questions.md); the target is 2–3 of them depending on availability. This section will be updated once the day is done.
+A revision day covering Days 1–6 was planned, with a 10-question to-do list in [Day-07/extra_questions.md](./Day-07/extra_questions.md). It was never completed: after an 11-day delay due to an unforeseen issue, the roadmap was abandoned.
 
 ---
 
@@ -365,7 +368,9 @@ Every day is an opportunity to get a little better.
 
 <div align="center">
 
-### Day 06 / 90 — Let's get to work.
+### Day 06 / 90 — Roadmap abandoned. 💀
+
+# 🪦 R.I.P. 💀
 
 **Revise consistently. Solve deliberately. Improve continuously.**
 
